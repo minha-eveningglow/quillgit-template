@@ -1,0 +1,55 @@
+# Scene 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+properties:
+  id:
+    type: string
+    pattern: "^scene-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [scene]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, question, deferred, deprecated]
+  title:
+    type: string
+    minLength: 1
+  narrative_order:
+    type: [integer, "null"]
+  chronological_order:
+    type: [integer, "null"]
+  pov_character:
+    type: string
+  location:
+    type: string
+  time_in_story:
+    type: string
+  tags:
+    type: array
+    items:
+      type: string
+  related_characters:
+    type: array
+    items:
+      type: string
+  required_canon_refs:
+    type: array
+    items:
+      type: string
+  must_not_reveal:
+    type: array
+    items:
+      type: string
+  game_adaptation_hooks:
+    type: array
+    items:
+      type: string
+  placement_candidates:
+    type: array
+    items:
+      type: string

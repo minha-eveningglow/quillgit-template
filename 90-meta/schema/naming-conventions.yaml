@@ -1,0 +1,45 @@
+# 파일/ID 명명 규칙
+
+file_naming:
+  style: kebab-case
+  examples:
+    - merchant-lord-early.md
+    - dark-alley-chase.md
+    - world-magic-system.md
+  forbidden:
+    - camelCase
+    - PascalCase
+    - snake_case
+    - spaces in filenames
+
+id_prefixes:
+  world_rule: "world-"
+  world_setting: "world-"
+  world_system: "world-"
+  character: "char-"
+  scene: "scene-"
+  background_scene: "bg-"
+  lore_document: "lore-"
+  game_concept: "game-"
+  core_loop: "loop-"
+  reference_research: "ref-"
+  prototype_scope: "proto-"
+
+frontmatter_required_fields:
+  all:
+    - id
+    - type
+    - status
+    - title
+  scene:
+    - id
+    - type
+    - status
+    - title
+    - pov_character
+  character:
+    - id
+    - type
+    - status
+    - title
+    - tier

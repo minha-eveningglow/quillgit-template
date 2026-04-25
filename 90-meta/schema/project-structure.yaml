@@ -1,0 +1,54 @@
+# Quillgit 프로젝트 디렉토리 구조 정의
+# 검증 스크립트가 이 파일을 참조하여 구조 검증
+
+directories:
+  required:
+    - path: 00-inbox
+      description: 미정리 아이디어
+    - path: 01-canon
+      description: 확정 설정
+      children:
+        - world
+        - characters
+        - relationships
+    - path: 02-candidates
+      description: 검토 후보
+      children:
+        - world
+        - characters
+        - scenes
+    - path: 03-structure
+      description: 전체 구조
+    - path: 04-scenes
+      description: 씬
+      children:
+        - background/characters
+        - floating
+    - path: 05-drafts
+      description: 초고
+    - path: 06-revisions
+      description: 수정본
+    - path: 08-manuscript
+      description: 최종 원고
+    - path: 90-meta
+      description: 메타/설정/컨텍스트
+
+  optional:
+    - path: 09-visual-assets
+      description: 시각 자료
+    - path: 10-lore-documents
+      description: 부속 설정 문서
+    - path: 20-game-adaptation
+      description: 게임화 프로젝트
+    - path: 30-feedback
+      description: 피드백
+    - path: 40-validation
+      description: 검증
+
+folder_status_rules:
+  01-canon:
+    allowed_statuses: [canon]
+  02-candidates:
+    allowed_statuses: [suggested, candidate, edited]
+  00-inbox:
+    allowed_statuses: [raw, question, deferred]

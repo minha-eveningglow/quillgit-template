@@ -1,0 +1,21 @@
+{
+	"permissions": {
+		"allow": [
+			"Read(**)",
+			"Grep(**)",
+			"Bash(ls *)",
+			"Bash(find *)",
+			"Bash(cat *)",
+			"Bash(npx ts-node tools/validate.ts *)"
+		]
+	},
+	"mcpServers": {
+		"quillgit": {
+			"type": "http",
+			"url": "{{QUILLGIT_API_URL}}/mcp",
+			"headers": {
+				"Authorization": "Bearer {{QUILLGIT_TOKEN}}"
+			}
+		}
+	}
+}

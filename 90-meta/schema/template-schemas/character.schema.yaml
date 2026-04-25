@@ -1,0 +1,45 @@
+# Character 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+  - tier
+properties:
+  id:
+    type: string
+    pattern: "^char-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [character]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, question, deferred, deprecated]
+  title:
+    type: string
+    minLength: 1
+  tier:
+    type: integer
+    enum: [1, 2, 3]
+  tags:
+    type: array
+    items:
+      type: string
+  related_characters:
+    type: array
+    items:
+      type: string
+  related_world_rules:
+    type: array
+    items:
+      type: string
+  related_scenes:
+    type: array
+    items:
+      type: string
+  game_adaptation_hooks:
+    type: array
+    items:
+      type: string

@@ -1,0 +1,40 @@
+# World 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+properties:
+  id:
+    type: string
+    pattern: "^world-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [world_rule, world_setting, world_system, world_geography, world_culture]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, question, deferred, deprecated]
+  title:
+    type: string
+    minLength: 1
+  tags:
+    type: array
+    items:
+      type: string
+  reality_distance:
+    type: string
+    enum: [low, medium, high, extreme]
+  related_characters:
+    type: array
+    items:
+      type: string
+  related_scenes:
+    type: array
+    items:
+      type: string
+  game_adaptation_hooks:
+    type: array
+    items:
+      type: string
