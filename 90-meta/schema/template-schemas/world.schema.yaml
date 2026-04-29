@@ -12,7 +12,7 @@ properties:
     pattern: "^world-[a-z0-9-]+$"
   type:
     type: string
-    enum: [world_rule, world_setting, world_system, world_geography, world_culture]
+    enum: [world_rule, world_setting, world_system, world_geography, world_culture, world_history, world_science, world_politics, world_economy, world_religion]
   status:
     type: string
     enum: [raw, suggested, candidate, edited, canon, question, deferred, deprecated]

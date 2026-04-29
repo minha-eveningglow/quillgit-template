@@ -19,6 +19,12 @@ properties:
   title:
     type: string
     minLength: 1
+  volume:
+    type: [integer, "null"]
+  chapter:
+    type: [integer, "null"]
+  episode:
+    type: [integer, "null"]
   narrative_order:
     type: [integer, "null"]
   chronological_order:
