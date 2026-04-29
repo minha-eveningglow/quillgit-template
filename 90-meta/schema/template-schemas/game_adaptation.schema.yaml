@@ -1,0 +1,36 @@
+# Game Adaptation 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+properties:
+  id:
+    type: string
+    pattern: "^game-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [game_brief, game_concept, game_prototype, game_borrowable]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, deprecated]
+  title:
+    type: string
+  genre:
+    type: string
+  platform:
+    type: string
+  tags:
+    type: array
+    items:
+      type: string
+  source_characters:
+    type: array
+    items:
+      type: string
+  source_scenes:
+    type: array
+    items:
+      type: string

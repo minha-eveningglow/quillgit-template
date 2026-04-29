@@ -1,0 +1,30 @@
+# Note 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+properties:
+  id:
+    type: string
+    pattern: "^note-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [note]
+  status:
+    type: string
+    enum: [raw, promoted, archived]
+  title:
+    type: string
+  related_to:
+    type: array
+    items:
+      type: string
+  tags:
+    type: array
+    items:
+      type: string
+  created_at:
+    type: string
+    format: date-time

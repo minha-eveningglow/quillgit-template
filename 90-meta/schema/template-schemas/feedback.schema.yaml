@@ -1,0 +1,33 @@
+# Feedback 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+properties:
+  id:
+    type: string
+    pattern: "^feedback-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [feedback_round, feedback_summary, feedback_presentation]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, deprecated]
+  title:
+    type: string
+  round:
+    type: integer
+  reviewer:
+    type: string
+  target_type:
+    type: string
+    enum: [character, world, scene, draft, manuscript]
+  target_id:
+    type: string
+  tags:
+    type: array
+    items:
+      type: string

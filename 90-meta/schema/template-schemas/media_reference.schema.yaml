@@ -1,0 +1,43 @@
+# Media Reference 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - media_type
+  - target_type
+  - target_id
+properties:
+  id:
+    type: string
+    pattern: "^media-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [media_reference]
+  media_type:
+    type: string
+    enum: [image, image_prompt, music, video]
+  target_type:
+    type: string
+    enum: [character, world, scene, relationship]
+  target_id:
+    type: string
+  usage:
+    type: string
+  external_url:
+    type: string
+    format: uri
+  file_path:
+    type: string
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, deprecated]
+  title:
+    type: string
+  tags:
+    type: array
+    items:
+      type: string
+  created_at:
+    type: string
+    format: date-time

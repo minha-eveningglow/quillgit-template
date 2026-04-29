@@ -5,6 +5,8 @@ directories:
   required:
     - path: 00-inbox
       description: 미정리 아이디어
+      children:
+        - notes
     - path: 01-canon
       description: 확정 설정
       children:
@@ -34,8 +36,16 @@ directories:
       description: 메타/설정/컨텍스트
 
   optional:
-    - path: 09-visual-assets
-      description: 시각 자료
+    - path: 09-media-references
+      description: 미디어 참고자료
+      children:
+        - references
+        - generated
+        - prompts
+        - external-links
+        - selected
+        - canon-visuals
+        - moodboards
     - path: 10-lore-documents
       description: 부속 설정 문서
     - path: 20-game-adaptation
@@ -44,6 +54,10 @@ directories:
       description: 피드백
     - path: 40-validation
       description: 검증
+      children:
+        - decision-logs
+        - gates
+        - risks
 
 folder_status_rules:
   01-canon:

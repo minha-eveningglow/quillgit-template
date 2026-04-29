@@ -1,0 +1,34 @@
+# Glossary 문서 frontmatter 검증 스키마
+
+type: object
+required:
+  - id
+  - type
+  - status
+  - title
+properties:
+  id:
+    type: string
+    pattern: "^glossary-[a-z0-9-]+$"
+  type:
+    type: string
+    enum: [glossary]
+  status:
+    type: string
+    enum: [raw, suggested, candidate, edited, canon, deprecated]
+  title:
+    type: string
+  category:
+    type: string
+  tags:
+    type: array
+    items:
+      type: string
+  related_characters:
+    type: array
+    items:
+      type: string
+  related_world_rules:
+    type: array
+    items:
+      type: string
