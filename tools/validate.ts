@@ -21,9 +21,9 @@ const VALID_STATUSES = [
 const REQUIRED_FIELDS = ["id", "type", "status", "title"];
 
 const FOLDER_STATUS_RULES: Record<string, string[]> = {
-	"01-canon": ["canon"],
-	"02-candidates": ["suggested", "candidate", "edited"],
-	"00-inbox": ["raw", "question", "deferred"],
+	canon: ["canon"],
+	candidates: ["suggested", "candidate", "edited", "draft", "reviewed", "raw", "question", "deferred"],
+	deprecated: ["deprecated"],
 };
 
 interface ValidationError {
@@ -41,8 +41,8 @@ function getTargetFiles(mode: string): string[] {
 		return output
 			.split("\n")
 			.filter((f) => f.endsWith(".md"))
-			.filter((f) => !f.startsWith("90-meta/templates/"))
-			.filter((f) => !f.startsWith("90-meta/schema/"))
+			.filter((f) => !f.startsWith("meta/templates/"))
+			.filter((f) => !f.startsWith("meta/schema/"))
 			.filter((f) => !f.startsWith(".claude/"))
 			.filter((f) => f !== "CLAUDE.md")
 			.map((f) => path.join(ROOT, f));
@@ -56,8 +56,8 @@ function getTargetFiles(mode: string): string[] {
 		return output
 			.split("\n")
 			.filter((f) => f.endsWith(".md"))
-			.filter((f) => !f.startsWith("90-meta/templates/"))
-			.filter((f) => !f.startsWith("90-meta/schema/"))
+			.filter((f) => !f.startsWith("meta/templates/"))
+			.filter((f) => !f.startsWith("meta/schema/"))
 			.filter((f) => !f.startsWith(".claude/"))
 			.filter((f) => f !== "CLAUDE.md")
 			.map((f) => path.join(ROOT, f));
@@ -65,16 +65,9 @@ function getTargetFiles(mode: string): string[] {
 
 	const files: string[] = [];
 	const contentDirs = [
-		"00-inbox",
-		"01-canon",
-		"02-candidates",
-		"03-structure",
-		"04-scenes",
-		"05-drafts",
-		"06-revisions",
-		"08-manuscript",
-		"10-lore-documents",
-		"20-game-adaptation",
+		"candidates",
+		"canon",
+		"deprecated",
 	];
 
 	for (const dir of contentDirs) {

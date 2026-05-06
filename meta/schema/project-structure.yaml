@@ -1,0 +1,59 @@
+# Quillgit 프로젝트 디렉토리 구조 정의
+# 검증 스크립트가 이 파일을 참조하여 구조 검증
+
+directories:
+  required:
+    - path: candidates
+      description: 작업 중/검토 중
+      children:
+        - characters
+        - world
+        - relationships
+        - glossary
+        - timeline
+        - scenes
+        - structure
+        - writings
+        - lore
+        - notes
+        - game
+        - feedback
+        - validation
+    - path: canon
+      description: 확정
+      children:
+        - characters
+        - world
+        - relationships
+        - glossary
+        - timeline
+        - scenes
+        - structure
+        - writings
+        - lore
+    - path: deprecated
+      description: 폐기
+    - path: media
+      description: 미디어 참고자료
+      children:
+        - references
+        - generated
+        - external-links
+        - selected
+        - canon-visuals
+        - moodboards
+    - path: meta
+      description: 프로젝트 설정
+      children:
+        - context
+        - schema
+        - templates
+        - prompts
+
+folder_status_rules:
+  canon:
+    allowed_statuses: [canon]
+  candidates:
+    allowed_statuses: [suggested, candidate, edited, draft, reviewed, raw, question, deferred]
+  deprecated:
+    allowed_statuses: [deprecated]

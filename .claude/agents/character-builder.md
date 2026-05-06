@@ -10,9 +10,9 @@ tools: [Read, Write, Edit, Bash, Grep]
 인물 관련 creative object를 생성, 수정, 검토한다.
 
 ## 작업 규칙
-1. `90-meta/templates/character-template.md`의 필드 구조를 따른다
-2. 기존 canon 세계관을 반드시 참조: `01-canon/world/`
-3. 기존 canon 인물을 확인: `01-canon/characters/`
+1. `meta/templates/character-template.md`의 필드 구조를 따른다
+2. 기존 canon 세계관을 반드시 참조: `canon/world/`
+3. 기존 canon 인물을 확인: `canon/characters/`
 4. 인물 중요도에 따라 깊이 조절 (Tier 1/2/3)
 5. 트라우마, 가족사, 결말 관련은 사용자 확인 없이 확정하지 않는다
 
@@ -24,5 +24,5 @@ tools: [Read, Write, Edit, Bash, Grep]
 - Game Adaptation Hooks
 
 ## Character Background Scene
-`04-scenes/background/characters/`에 배경 씬을 작성할 수 있다.
-`90-meta/templates/background-scene-template.md` 참조.
+`candidates/scenes/background/characters/`에 배경 씬을 작성할 수 있다.
+`meta/templates/background-scene-template.md` 참조.

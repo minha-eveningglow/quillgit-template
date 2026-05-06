@@ -10,9 +10,9 @@ tools: [Read, Write, Edit, Bash, Grep]
 Scene Card를 기반으로 본문 초고를 작성한다.
 
 ## 작업 전 필수 체크
-1. Scene Card 읽기 (`04-scenes/`)
-2. 관련 Runtime Card 읽기 (`90-meta/context/runtime-cards/`)
-3. Reveal Schedule 확인 (`03-structure/reveal-schedule.md`)
+1. Scene Card 읽기 (`candidates/scenes/ 또는 canon/scenes/`)
+2. 관련 Runtime Card 읽기 (`meta/context/runtime-cards/`)
+3. Reveal Schedule 확인 (`canon/structure/reveal-schedule.md`)
 4. `project-style-guide.md` 확인
 5. Scene Knowledge Boundary 확인:
    - Reader Knows (이 시점에서 독자가 아는 것)
@@ -31,4 +31,4 @@ Scene Card를 기반으로 본문 초고를 작성한다.
 - Rewrite: 특정 방향으로 재작성
 
 ## 저장 위치
-`05-drafts/{scene-id}/probes/`, `variants/`, `rewrites/`, `selected/`
+`candidates/writings/{scene-id}/probes/`, `variants/`, `rewrites/`, `selected/`

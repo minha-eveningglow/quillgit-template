@@ -13,17 +13,22 @@ file_naming:
     - spaces in filenames
 
 id_prefixes:
-  world_rule: "world-"
-  world_setting: "world-"
-  world_system: "world-"
   character: "char-"
+  world: "world-"
+  relationship: "rel-"
+  glossary: "gloss-"
+  timeline_event: "tl-"
+  scene_design: "sd-"
   scene: "scene-"
-  background_scene: "bg-"
-  lore_document: "lore-"
-  game_concept: "game-"
-  core_loop: "loop-"
-  reference_research: "ref-"
-  prototype_scope: "proto-"
+  structure: "struct-"
+  writing: "draft-"
+  lore: "lore-"
+  game: "game-"
+  commentary: "cmnt-"
+  feedback: "fb-"
+  note: "note-"
+  media: "media-"
+  prompt: "prompt-"
 
 frontmatter_required_fields:
   all:
@@ -43,3 +48,16 @@ frontmatter_required_fields:
     - status
     - title
     - tier
+  structure:
+    - id
+    - type
+    - status
+    - title
+    - structure_type
+  timeline_event:
+    - id
+    - type
+    - status
+    - title
+    - year
+    - axis

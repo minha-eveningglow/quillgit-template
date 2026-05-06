@@ -11,20 +11,18 @@
 부가 상태: `question`, `deferred`, `deprecated`, `draft`, `reviewed`
 
 ## 폴더 규칙
-- `00-inbox/` — 미정리 아이디어 (status: raw)
-- `01-canon/` — 확정된 설정 (status: canon만)
-- `02-candidates/` — 검토 후보 (candidate, suggested, edited)
-- `03-structure/` — 전체 구조, reveal schedule
-- `04-scenes/` — 씬 카드 (초고 아님)
-- `05-drafts/` — 초고
-- `06-revisions/` — 수정본
-- `08-manuscript/` — 최종 원고
-- `09-visual-assets/` — 시각 자료
-- `10-lore-documents/` — 부속 설정 문서
-- `20-game-adaptation/` — 게임화 프로젝트
-- `30-feedback/` — 피드백
-- `40-validation/` — 검증
-- `90-meta/` — 메타 / 설정 / 컨텍스트
+- `candidates/` — 작업 중/검토 중 (status: suggested, candidate, edited, draft, reviewed)
+  - `characters/`, `world/`, `relationships/`, `glossary/`, `timeline/`
+  - `scenes/`, `structure/`, `writings/`, `lore/`, `notes/`
+  - `game/`, `feedback/`, `validation/`
+- `canon/` — 확정 (status: canon만)
+  - `characters/`, `world/`, `relationships/`, `glossary/`, `timeline/`
+  - `scenes/`, `structure/`, `writings/`, `lore/`
+- `deprecated/` — 폐기 (되돌릴 수 없음)
+- `media/` — 미디어 참고자료 (상태 흐름 밖)
+  - `references/`, `generated/`, `external-links/`, `selected/`, `canon-visuals/`, `moodboards/`
+- `meta/` — 프로젝트 설정 (상태 흐름 밖)
+  - `context/`, `schema/`, `templates/`, `prompts/`
 
 ## 파일 규칙
 - 파일명: kebab-case (예: `merchant-lord-early.md`)
@@ -32,19 +30,19 @@
 - frontmatter 필수 필드: `id`, `type`, `status`, `title`
 
 ## 작업 시작 시
-1. `90-meta/context/project-brief.md` 읽기
-2. `90-meta/context/current-canon-summary.md` 읽기
-3. `90-meta/context/sessions/` 최신 세션 요약 읽기
+1. `meta/context/project-brief.md` 읽기
+2. `meta/context/current-canon-summary.md` 읽기
+3. `meta/context/sessions/` 최신 세션 요약 읽기
 4. 사용자에게 이어할 작업 제안
 
 ## 작업 종료 시
-1. `90-meta/context/sessions/`에 세션 요약 저장
-2. `90-meta/context/working-state/` 업데이트
+1. `meta/context/sessions/`에 세션 요약 저장
+2. `meta/context/working-state/` 업데이트
 3. `project-brief.md` 필요 시 갱신
 
 ## 초고 작성 시 (Temporal Context Guard)
 - 해당 씬의 narrative_order 이전까지의 정보만 사용
-- `03-structure/reveal-schedule.md` 반드시 확인
+- `canon/structure/reveal-schedule.md` 반드시 확인
 - `must_not_reveal` 필드 준수
 - Character Knowledge State 확인
 

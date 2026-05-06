@@ -68,7 +68,7 @@ game_adaptation_hooks: []
 ```
 
 ### 관계
-다른 인물과의 관계. `01-canon/relationships/`에도 별도 문서 가능.
+다른 인물과의 관계. `canon/relationships/`에도 별도 문서 가능.
 
 ### Arc (Tier 1 필수)
 인물의 변화 곡선. 시작 상태 → 전환점 → 끝 상태.

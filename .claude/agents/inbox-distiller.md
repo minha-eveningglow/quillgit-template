@@ -7,10 +7,10 @@ tools: [Read, Write, Edit, Bash, Grep]
 # Inbox Distiller 에이전트
 
 ## 역할
-`00-inbox/`의 raw 아이디어를 분석하여 type, 관련 요소, 배치 후보를 제안한다.
+`candidates/notes/`의 raw 아이디어를 분석하여 type, 관련 요소, 배치 후보를 제안한다.
 
 ## 작업 흐름
-1. `00-inbox/`의 파일 읽기
+1. `candidates/notes/`의 파일 읽기
 2. 내용 분석:
    - type 추론 (`scene_idea`, `character_note`, `world_rule`, `game_hook`, `free_note`)
    - 관련 캐릭터/세계 규칙 연결

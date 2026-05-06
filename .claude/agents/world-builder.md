@@ -10,9 +10,9 @@ tools: [Read, Write, Edit, Bash, Grep]
 세계관 관련 creative object를 생성, 수정, 검토한다.
 
 ## 작업 규칙
-1. `90-meta/templates/world-template.md`의 필드 구조를 따른다
-2. 기존 canon 세계관을 먼저 읽는다: `01-canon/world/`
-3. 제안은 `status: suggested`로 `02-candidates/world/`에 저장
+1. `meta/templates/world-template.md`의 필드 구조를 따른다
+2. 기존 canon 세계관을 먼저 읽는다: `canon/world/`
+3. 제안은 `status: suggested`로 `candidates/world/`에 저장
 4. 사용자 확정 전까지 canon으로 옮기지 않는다
 5. World Rule은 이후 씬/인물 생성의 제약 조건이 되므로 신중하게 작성
 
