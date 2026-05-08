@@ -1,15 +1,15 @@
 ---
 template_id: reference-research-template
 template_version: "1.0"
-description: 레퍼런스 게임/작품 분석 템플릿
+description: Reference game/work analysis template
 ---
 
 # Reference Research Template
 
-게임화를 위해 참고할 기존 게임/작품을 분석할 때 사용.
-차용(Borrow)과 복사(Copy)를 명확히 구분한다.
+Used when analyzing existing games/works as references for game adaptation.
+Clearly distinguish between borrowing and copying.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -26,19 +26,19 @@ game_concept_ref: ""
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 기본 정보
-- **제목**:
-- **장르**:
-- **플레이 인원/시간**:
-- **핵심 메카닉**:
+### Basic Information
+- **Title**:
+- **Genre**:
+- **Player Count/Session Length**:
+- **Core Mechanic**:
 
-### 우리 프로젝트와의 연결
-이 레퍼런스가 우리 게임에 왜 관련 있는가.
+### Connection to Our Project
+Why this reference is relevant to our game.
 
-### 차용 가능 요소 (Borrowable)
-가져올 수 있는 메카닉, 구조, 아이디어. 반드시 transformation 포함.
+### Borrowable Elements
+Mechanics, structures, and ideas that can be adopted. Must include transformation.
 ```yaml
 - element: ""
   original_context: ""
@@ -46,11 +46,11 @@ game_concept_ref: ""
   risk: low | medium | high
 ```
 
-### 차용 불가 요소
-가져오면 안 되는 것과 그 이유.
+### Non-Borrowable Elements
+What should not be adopted and why.
 
-### 핵심 인사이트
-이 레퍼런스에서 배울 수 있는 설계 원칙.
+### Key Insights
+Design principles that can be learned from this reference.
 
-### 메모
-자유 형식.
+### Notes
+Free-form.

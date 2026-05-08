@@ -1,19 +1,19 @@
 ---
 id: open-questions
 type: meta
-title: 열린 질문들
+title: Open Questions
 updated: ""
 ---
 
-# 열린 질문들
+# Open Questions
 
-> 아직 결정하지 않은 사항들. `question` 또는 `deferred` 상태의 항목을 여기에 모아둡니다.
-> 열린 질문은 유효한 상태입니다. 억지로 답하지 않습니다.
+> Items that have not yet been decided. Collect `question` or `deferred` status items here.
+> Open questions are a valid state. Do not force an answer.
 
-## 세계관 관련
+## World-related
 
-## 인물 관련
+## Character-related
 
-## 구조 관련
+## Structure-related
 
-## 게임화 관련
+## Gamification-related

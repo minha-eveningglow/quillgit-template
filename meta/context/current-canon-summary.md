@@ -1,26 +1,26 @@
 ---
 id: current-canon-summary
 type: meta
-title: 현재 Canon 요약
+title: Current Canon Summary
 updated: ""
 ---
 
-# 현재 Canon 요약
+# Current Canon Summary
 
-> AI 에이전트가 세션 시작 시 참조하는 확정 설정 요약.
-> canon이 변경될 때마다 이 문서를 갱신합니다.
+> A summary of finalized settings that AI agents reference at session start.
+> Update this document whenever canon changes.
 
-## 세계관 요약
-아직 확정된 세계관 설정이 없습니다.
+## World Summary
+No finalized world settings yet.
 
-## 주요 인물
-아직 확정된 인물이 없습니다.
+## Key Characters
+No finalized characters yet.
 
-## 관계
-아직 확정된 관계 설정이 없습니다.
+## Relationships
+No finalized relationship settings yet.
 
-## 구조
-아직 확정된 구조가 없습니다.
+## Structure
+No finalized structure yet.
 
-## 최근 변경
-없음.
+## Recent Changes
+None.

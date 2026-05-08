@@ -1,25 +1,25 @@
 ---
 id: deprecated-summary
 type: meta
-title: 폐기된 설정 요약
+title: Deprecated Settings Summary
 updated: ""
 ---
 
-# 폐기된 설정 요약
+# Deprecated Settings Summary
 
-> `deprecated` 상태로 전환된 설정들의 요약.
-> 왜 폐기했는지 이유를 함께 기록합니다.
+> A summary of settings that have been transitioned to `deprecated` status.
+> Record the reason for deprecation alongside each entry.
 
-## 폐기 기록
+## Deprecation Log
 
-아직 폐기된 설정이 없습니다.
+No deprecated settings yet.
 
-## 형식
+## Format
 
 ```markdown
-### [설정 제목]
-- **원본 파일**:
-- **폐기 일자**:
-- **폐기 사유**:
-- **대체 설정**:
+### [Setting Title]
+- **Original File**:
+- **Deprecated Date**:
+- **Reason for Deprecation**:
+- **Replacement Setting**:
 ```

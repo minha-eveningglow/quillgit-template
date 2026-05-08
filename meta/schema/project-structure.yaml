@@ -1,10 +1,10 @@
-# Quillgit 프로젝트 디렉토리 구조 정의
-# 검증 스크립트가 이 파일을 참조하여 구조 검증
+# Quillgit Project Directory Structure Definition
+# The validation script references this file for structure verification
 
 directories:
   required:
     - path: candidates
-      description: 작업 중/검토 중
+      description: Work in progress / under review
       children:
         - characters
         - world
@@ -20,7 +20,7 @@ directories:
         - feedback
         - validation
     - path: canon
-      description: 확정
+      description: Finalized
       children:
         - characters
         - world
@@ -32,9 +32,9 @@ directories:
         - writings
         - lore
     - path: deprecated
-      description: 폐기
+      description: Retired
     - path: media
-      description: 미디어 참고자료
+      description: Media references
       children:
         - references
         - generated
@@ -43,7 +43,7 @@ directories:
         - canon-visuals
         - moodboards
     - path: meta
-      description: 프로젝트 설정
+      description: Project settings
       children:
         - context
         - schema

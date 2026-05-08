@@ -1,23 +1,23 @@
 ---
 id: active-decisions
 type: meta
-title: 진행 중인 결정 사항
+title: Active Decisions
 updated: ""
 ---
 
-# 진행 중인 결정 사항
+# Active Decisions
 
-> 현재 검토/토론 중인 결정 사항을 추적합니다.
-> 결정이 완료되면 해당 항목을 삭제하고 canon에 반영합니다.
+> Track decisions currently under review or discussion.
+> Once a decision is finalized, remove the entry and reflect it in canon.
 
-## 형식
+## Format
 
 ```markdown
-### [결정 제목]
-- **상태**: 검토중 | 후보선정 | 보류
-- **선택지**:
-  1. 선택지 A — 장점/단점
-  2. 선택지 B — 장점/단점
-- **관련 문서**: []
-- **메모**:
+### [Decision Title]
+- **Status**: Under Review | Shortlisted | On Hold
+- **Options**:
+  1. Option A — Pros/Cons
+  2. Option B — Pros/Cons
+- **Related Documents**: []
+- **Notes**:
 ```

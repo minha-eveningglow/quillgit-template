@@ -1,15 +1,15 @@
 ---
 template_id: character-template
 template_version: "1.0"
-description: 인물 설정 문서 템플릿 (Character Bible)
+description: Character document template (Character Bible)
 ---
 
 # Character Template
 
-새 인물을 작성할 때 아래 frontmatter 구조를 따른다.
-Tier에 따라 깊이를 조절한다: Tier 1 (주인공급) > Tier 2 (주요 조연) > Tier 3 (단역/엑스트라).
+Follow the frontmatter structure below when creating a new character.
+Adjust depth based on Tier: Tier 1 (protagonist-level) > Tier 2 (major supporting) > Tier 3 (minor/extra).
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -28,53 +28,53 @@ game_adaptation_hooks: []
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
 ### Core Identity
-- **이름**: 풀네임 / 호칭 / 별명
-- **나이**: 작중 시점 기준
-- **직업/역할**:
-- **첫인상**: 다른 인물이 이 인물을 처음 만나면 느끼는 것
+- **Name**: Full name / title / nickname
+- **Age**: As of the current point in the story
+- **Occupation/Role**:
+- **First Impression**: What other characters feel upon first meeting this character
 
-### Desire / Need / Fear 삼각형
-- **Desire** (원하는 것): 의식적으로 추구하는 목표
-- **Need** (필요한 것): 정말로 필요하지만 인물 자신은 모르는 것
-- **Fear** (두려워하는 것): 이 인물을 움직이는 근본적 공포
+### Desire / Need / Fear Triangle
+- **Desire** (what they want): The goal they consciously pursue
+- **Need** (what they need): What they truly need but are unaware of
+- **Fear** (what they fear): The fundamental fear that drives this character
 
-### 외모
-자유 형식. 핵심 식별 특징 위주.
+### Appearance
+Free-form. Focus on key identifying features.
 
-### 성격
-- 핵심 성격 특성 (3~5가지)
-- 모순과 긴장 (Contradictions and Tensions)
+### Personality
+- Core personality traits (3-5)
+- Contradictions and Tensions
 
 ### Speech Pattern
-- 말투 특징 (존댓말/반말, 어미, 자주 쓰는 표현)
-- 대화 예시 (2~3줄)
-- 감정 상태에 따른 말투 변화
+- Speech characteristics (formality level, sentence endings, frequently used expressions)
+- Dialogue examples (2-3 lines)
+- How speech changes with emotional state
 
-### 배경
-- 과거사 요약
-- 트라우마 / 결정적 경험
-- 가족 관계
+### Background
+- Past history summary
+- Trauma / defining experiences
+- Family relationships
 
 ### Scene Behavior Rules
-이 인물이 특정 상황에서 보이는 행동 패턴.
+Behavioral patterns this character exhibits in specific situations.
 ```yaml
-- trigger: "위협을 받을 때"
+- trigger: "When threatened"
   response: ""
-- trigger: "신뢰하는 사람 앞에서"
+- trigger: "In front of someone they trust"
   response: ""
 ```
 
-### 관계
-다른 인물과의 관계. `canon/relationships/`에도 별도 문서 가능.
+### Relationships
+Relationships with other characters. Can also have separate documents in `canon/relationships/`.
 
-### Arc (Tier 1 필수)
-인물의 변화 곡선. 시작 상태 → 전환점 → 끝 상태.
+### Arc (Required for Tier 1)
+The character's transformation arc. Starting state -> Turning point -> Ending state.
 
-### 게임화 가능성
-이 인물이 게임 내에서 어떤 역할/기능을 할 수 있는가.
+### Game Adaptation Potential
+What role/function could this character serve within a game.
 
-### 열린 질문
-아직 결정하지 않은 사항.
+### Open Questions
+Matters not yet decided.

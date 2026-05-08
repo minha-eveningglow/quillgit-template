@@ -1,4 +1,4 @@
-# 파일/ID 명명 규칙
+# File/ID Naming Conventions
 
 file_naming:
   style: kebab-case

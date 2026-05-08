@@ -1,37 +1,37 @@
 ---
 id: template-rules
 type: meta
-title: 템플릿 사용 규칙
+title: Template Usage Rules
 ---
 
-# 템플릿 사용 규칙
+# Template Usage Rules
 
-## 기본 원칙
-1. 모든 창작 문서는 반드시 해당 템플릿의 frontmatter 구조를 따른다
-2. 본문 구조는 권장사항이지, 강제가 아니다. 필요에 따라 섹션을 추가/생략 가능
-3. frontmatter의 `id`, `type`, `status`, `title`은 필수
+## Basic Principles
+1. All creative documents must follow the frontmatter structure of their corresponding template
+2. Body structure is a recommendation, not a requirement. Sections may be added or omitted as needed
+3. The frontmatter fields `id`, `type`, `status`, and `title` are required
 
-## 템플릿 목록
+## Template List
 
-| 템플릿 | 용도 | 저장 위치 |
-|--------|------|-----------|
-| world-template | 세계관 설정 | canon/world/ 또는 candidates/world/ |
-| character-template | 인물 설정 | canon/characters/ 또는 candidates/characters/ |
-| scene-template | 씬 카드 | candidates/scenes/ 또는 canon/scenes/ |
-| background-scene-template | 인물 배경 씬 | candidates/scenes/background/characters/ |
-| lore-document-template | 부속 설정 문서 | candidates/lore/ 또는 canon/lore/ |
-| game-concept-template | 게임 컨셉 | candidates/game/concepts/ |
-| core-loop-template | 코어 루프 | candidates/game/concepts/ |
-| reference-research-template | 레퍼런스 분석 | candidates/game/references/ |
-| prototype-scope-template | 프로토타입 범위 | candidates/game/prototypes/ |
+| Template | Purpose | Storage Location |
+|----------|---------|-----------------|
+| world-template | World settings | canon/world/ or candidates/world/ |
+| character-template | Character settings | canon/characters/ or candidates/characters/ |
+| scene-template | Scene card | candidates/scenes/ or canon/scenes/ |
+| background-scene-template | Character background scene | candidates/scenes/background/characters/ |
+| lore-document-template | Supplementary lore document | candidates/lore/ or canon/lore/ |
+| game-concept-template | Game concept | candidates/game/concepts/ |
+| core-loop-template | Core loop | candidates/game/concepts/ |
+| reference-research-template | Reference analysis | candidates/game/references/ |
+| prototype-scope-template | Prototype scope | candidates/game/prototypes/ |
 
-## status별 저장 위치 규칙
+## Storage Location Rules by Status
 - `canon` → `canon/`
 - `suggested`, `candidate`, `edited` → `candidates/`
 - `draft`, `reviewed` → `candidates/writings/`
 - `deprecated` → `deprecated/`
 
-## 새 템플릿 추가
-1. `meta/templates/`에 템플릿 파일 추가
-2. `meta/schema/template-schemas/`에 검증 스키마 추가
-3. 이 문서의 템플릿 목록에 추가
+## Adding New Templates
+1. Add the template file to `meta/templates/`
+2. Add a validation schema to `meta/schema/template-schemas/`
+3. Add the template to the list in this document

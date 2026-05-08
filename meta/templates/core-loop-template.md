@@ -1,14 +1,14 @@
 ---
 template_id: core-loop-template
 template_version: "1.0"
-description: 게임 코어 루프 설계 템플릿
+description: Game core loop design template
 ---
 
 # Core Loop Template
 
-게임의 핵심 반복 구조(Core Loop)를 설계할 때 사용.
+Used when designing the core loop (the fundamental repeating structure) of a game.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -23,30 +23,30 @@ updated: YYYY-MM-DD
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 루프 다이어그램
+### Loop Diagram
 ```
-행동 → 결과 → 보상/벌칙 → 의사결정 → 행동
+Action -> Outcome -> Reward/Penalty -> Decision -> Action
 ```
 
 ### Primary Loop
-플레이어가 가장 자주 반복하는 핵심 행위.
-- **행동**: 무엇을 하는가
-- **피드백**: 어떤 결과가 돌아오는가
-- **진행**: 무엇이 누적되는가
+The core action the player repeats most frequently.
+- **Action**: What the player does
+- **Feedback**: What result comes back
+- **Progression**: What accumulates
 
 ### Secondary Loop
-Primary Loop를 감싸는 상위 루프 (세션 단위, 에피소드 단위 등).
+The higher-level loop that wraps around the Primary Loop (session-level, episode-level, etc.).
 
 ### Meta Loop
-장기적 진행 구조 (캠페인, 전체 스토리 단위).
+Long-term progression structure (campaign, overall story level).
 
-### 텐션 곡선
-루프가 반복되면서 긴장감이 어떻게 변화하는가.
+### Tension Curve
+How tension changes as the loop repeats.
 
-### 원작 연결
-소설의 어떤 갈등/구조가 이 루프에 매핑되는가.
+### Connection to Source Material
+Which conflicts/structures from the novel map to this loop.
 
-### 메모
-자유 형식.
+### Notes
+Free-form.

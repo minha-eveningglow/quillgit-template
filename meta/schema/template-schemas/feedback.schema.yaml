@@ -1,4 +1,4 @@
-# Feedback 문서 frontmatter 검증 스키마
+# Feedback Document Frontmatter Validation Schema
 
 type: object
 required:

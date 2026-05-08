@@ -1,14 +1,14 @@
 ---
 template_id: scene-template
 template_version: "1.0"
-description: 씬 카드 (Scene Card) 템플릿
+description: Scene Card template
 ---
 
 # Scene Template
 
-씬 설계 시 아래 구조를 따른다. 초고(draft)가 아닌 설계 문서(Scene Card)이다.
+Follow the structure below when designing a scene. This is a design document (Scene Card), not a draft.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -33,29 +33,29 @@ placement_candidates: []
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 한줄 요약
-이 씬을 한 문장으로.
+### One-Line Summary
+This scene in one sentence.
 
 ### Start State
-이 씬이 시작될 때의 상태.
-- 인물 감정 상태
-- 상황/환경
-- 독자가 아는 정보
+The state at the beginning of this scene.
+- Character emotional state
+- Situation/environment
+- Information the reader knows
 
 ### End State
-이 씬이 끝났을 때의 상태. Start State와 반드시 달라야 한다.
-- 인물 감정 상태 변화
-- 상황 변화
-- 새로 드러난 정보
+The state at the end of this scene. Must differ from Start State.
+- Change in character emotional state
+- Change in situation
+- Newly revealed information
 
-### Turn (전환점)
-Start → End를 만드는 결정적 순간. 무엇이 바뀌는가.
+### Turn (Turning Point)
+The decisive moment that transforms Start into End. What changes.
 
 ### Conflict + Stakes
-- **갈등**: 무엇이 부딪히는가
-- **판돈**: 실패하면 무엇을 잃는가
+- **Conflict**: What forces collide
+- **Stakes**: What is lost if they fail
 
 ### Scene Knowledge Boundary
 ```yaml
@@ -64,11 +64,11 @@ pov_character_knows: []
 must_not_reveal: []
 ```
 
-### 분위기/톤
-이 씬의 감정 색조. 키워드 또는 짧은 설명.
+### Mood/Tone
+The emotional color of this scene. Keywords or brief description.
 
-### 게임화 가능성
-이 씬의 갈등/선택이 게임 메카닉으로 변환될 수 있는 방향.
+### Game Adaptation Potential
+How the conflict/choices in this scene could be converted into game mechanics.
 
-### 메모
-자유 형식 메모.
+### Notes
+Free-form notes.

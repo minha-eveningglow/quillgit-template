@@ -1,14 +1,14 @@
 ---
 template_id: world-template
 template_version: "1.0"
-description: 세계관 설정 문서 템플릿
+description: World-building document template
 ---
 
 # World Template
 
-새 세계관 요소를 작성할 때 아래 frontmatter 구조를 따른다.
+Follow the frontmatter structure below when creating a new world-building element.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -28,23 +28,23 @@ game_adaptation_hooks: []
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 개요
-한두 문장으로 이 세계관 요소를 요약.
+### Overview
+Summarize this world-building element in one or two sentences.
 
-### 핵심 규칙
-- 이 세계에서 무엇이 가능하고 불가능한가
-- 현실과 다른 점은 무엇인가
+### Core Rules
+- What is possible and impossible in this world
+- How it differs from reality
 
-### 세부 설정
-자유 형식으로 상세 기술.
+### Detailed Settings
+Free-form detailed description.
 
-### 독자가 배워야 할 것
-이 설정을 이해하기 위해 독자가 알아야 하는 핵심 개념.
+### What the Reader Needs to Learn
+Key concepts the reader must understand to grasp this setting.
 
-### 게임화 가능성
-이 설정이 게임 시스템으로 변환될 수 있는 방향.
+### Game Adaptation Potential
+How this setting could be converted into game systems.
 
-### 열린 질문
-아직 결정하지 않은 사항. `question` 또는 `deferred` 상태로 기록.
+### Open Questions
+Matters not yet decided. Record with `question` or `deferred` status.

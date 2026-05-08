@@ -1,4 +1,4 @@
-# Media Reference 문서 frontmatter 검증 스키마
+# Media Reference Document Frontmatter Validation Schema
 
 type: object
 required:

@@ -1,15 +1,14 @@
 ---
 template_id: background-scene-template
 template_version: "1.0"
-description: 인물 배경 씬 템플릿. 본편에 포함되지 않는 인물 과거/비하인드.
+description: Background scene template for characters. Past events or behind-the-scenes moments not included in the main narrative.
 ---
 
 # Background Scene Template
 
-인물의 과거, 비하인드 스토리를 다루는 씬. 본편(narrative_order)에 포함되지 않으며,
-인물 이해를 위한 작가용 참고 자료이다.
+Scenes that explore a character's past or behind-the-scenes stories. Not included in the main narrative (narrative_order); these serve as reference material for the author's understanding of the character.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -28,19 +27,19 @@ purpose: ""
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 상황
-언제, 어디서, 무엇이 벌어졌는가.
+### Situation
+When, where, and what happened.
 
-### 핵심 순간
-이 배경 씬에서 가장 중요한 순간.
+### Key Moment
+The most important moment in this background scene.
 
-### 인물에 미친 영향
-이 경험이 인물의 현재(본편 시점) 행동/성격에 어떤 영향을 주는가.
+### Impact on the Character
+How this experience affects the character's current behavior/personality (at the point of the main narrative).
 
-### 본편과의 연결
-본편의 어떤 씬/행동과 연결되는가. 참조용.
+### Connection to the Main Narrative
+Which scenes/actions in the main narrative does this connect to. For reference purposes.
 
-### 메모
-자유 형식.
+### Notes
+Free-form.

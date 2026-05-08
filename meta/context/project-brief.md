@@ -1,39 +1,39 @@
 ---
 id: project-brief
 type: meta
-title: 프로젝트 브리핑
+title: Project Brief
 updated: ""
 ---
 
-# 프로젝트 브리핑
+# Project Brief
 
-> 이 파일은 프로젝트를 시작할 때 가장 먼저 채워야 할 문서입니다.
-> AI 에이전트가 세션 시작 시 이 파일을 읽고 프로젝트 맥락을 파악합니다.
+> This is the first document to fill out when starting a project.
+> AI agents read this file at session start to understand the project context.
 
-## 프로젝트명
-
-
-## 한줄 소개
+## Project Name
 
 
-## 장르/분위기
+## One-line Summary
 
 
-## 핵심 주제
-이 작품이 탐구하는 근본 질문이나 주제.
+## Genre / Mood
 
-## 규모
-- 예상 분량:
-- 예상 씬 수:
-- 주요 인물 수:
 
-## 현재 단계
-- [ ] 세계관 구축
-- [ ] 인물 설계
-- [ ] 구조 설계
-- [ ] 씬 설계
-- [ ] 초고 작성
-- [ ] 수정
-- [ ] 게임화
+## Core Themes
+The fundamental questions or themes this work explores.
 
-## 메모
+## Scale
+- Estimated length:
+- Estimated number of scenes:
+- Number of main characters:
+
+## Current Phase
+- [ ] World-building
+- [ ] Character design
+- [ ] Structure design
+- [ ] Scene design
+- [ ] First draft
+- [ ] Revision
+- [ ] Gamification
+
+## Notes

@@ -1,43 +1,43 @@
 ---
 id: project-style-guide
 type: meta
-title: 프로젝트 문체 가이드
+title: Project Style Guide
 ---
 
-# 프로젝트 문체 가이드
+# Project Style Guide
 
-> 이 파일은 프로젝트를 시작한 후 사용자가 직접 채우는 문서입니다.
-> Draft Writer 에이전트가 초고 작성 시 이 가이드를 참조합니다.
+> This document is filled out by the user after starting a project.
+> The Draft Writer agent references this guide when writing drafts.
 
-## 시점
-- [ ] 1인칭
-- [ ] 3인칭 제한
-- [ ] 3인칭 전지
-- [ ] 기타:
+## Point of View
+- [ ] First person
+- [ ] Third person limited
+- [ ] Third person omniscient
+- [ ] Other:
 
-## 시제
-- [ ] 과거형
-- [ ] 현재형
-- [ ] 혼합
+## Tense
+- [ ] Past tense
+- [ ] Present tense
+- [ ] Mixed
 
-## 문체 특징
-- 문장 길이 선호:
-- 묘사 밀도:
-- 대화 비중:
+## Style Characteristics
+- Sentence length preference:
+- Description density:
+- Dialogue proportion:
 
-## 어조
-- 전체적인 톤:
-- 피해야 할 톤:
+## Tone
+- Overall tone:
+- Tones to avoid:
 
-## 금지 표현
-사용하지 않을 표현, 클리셰, 비유 등.
+## Banned Expressions
+Expressions, cliches, or metaphors not to be used.
 
-## 참고 작가/작품
-문체적으로 참고할 작가나 작품.
+## Reference Authors / Works
+Authors or works to reference for style.
 
-## 대화 규칙
-- 대사 표기 방식: (예: 큰따옴표, 줄바꿈 등)
-- 내면 독백 표기 방식:
-- 방언/사투리 사용 여부:
+## Dialogue Rules
+- Dialogue formatting: (e.g., double quotes, line breaks, etc.)
+- Internal monologue formatting:
+- Use of dialect / regional speech:
 
-## 메모
+## Notes

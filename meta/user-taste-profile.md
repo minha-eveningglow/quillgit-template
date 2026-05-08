@@ -1,34 +1,34 @@
 ---
 id: user-taste-profile
 type: meta
-title: 사용자 취향 프로필
+title: User Taste Profile
 ---
 
-# 사용자 취향 프로필
+# User Taste Profile
 
-> AI 에이전트가 제안할 때 참조하는 사용자 취향 정보.
-> 작업하면서 점진적으로 채워나갑니다.
+> Taste information that AI agents reference when making suggestions.
+> Fill this in gradually as you work.
 
-## 좋아하는 것
-- 장르:
-- 주제:
-- 캐릭터 유형:
-- 서사 구조:
-- 분위기:
+## Likes
+- Genre:
+- Themes:
+- Character types:
+- Narrative structure:
+- Mood:
 
-## 싫어하는 것
-- 피하고 싶은 클리셰:
-- 싫어하는 전개:
-- 거부감 드는 요소:
+## Dislikes
+- Cliches to avoid:
+- Disliked plot developments:
+- Off-putting elements:
 
-## 게임 취향 (게임화 시)
-- 좋아하는 게임 장르:
-- 좋아하는 메카닉:
-- 참고 게임:
+## Game Preferences (for gamification)
+- Favorite game genres:
+- Favorite mechanics:
+- Reference games:
 
-## AI 제안 선호도
-- 제안 스타일: 보수적 | 균형 | 실험적
-- 선호하는 선택지 수: 2~3개 | 3~5개
-- 설명 깊이: 간결 | 보통 | 상세
+## AI Suggestion Preferences
+- Suggestion style: Conservative | Balanced | Experimental
+- Preferred number of options: 2-3 | 3-5
+- Explanation depth: Concise | Moderate | Detailed
 
-## 메모
+## Notes

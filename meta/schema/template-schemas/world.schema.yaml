@@ -1,4 +1,4 @@
-# World 문서 frontmatter 검증 스키마
+# World Document Frontmatter Validation Schema
 
 type: object
 required:

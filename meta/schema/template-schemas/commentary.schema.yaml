@@ -1,4 +1,4 @@
-# Commentary 문서 frontmatter 검증 스키마
+# Commentary Document Frontmatter Validation Schema
 
 type: object
 required:

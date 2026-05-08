@@ -1,15 +1,15 @@
 ---
 template_id: game-concept-template
 template_version: "1.0"
-description: 게임 컨셉 문서 템플릿
+description: Game concept document template
 ---
 
 # Game Concept Template
 
-소설 세계관을 기반으로 한 게임 컨셉을 정의할 때 사용.
-줄거리 재현이 아닌 플레이 경험 재설계에 초점.
+Used when defining a game concept based on the novel's world.
+Focus on redesigning the play experience, not reproducing the plot.
 
-## Frontmatter 구조
+## Frontmatter Structure
 
 ```yaml
 ---
@@ -28,28 +28,28 @@ source_canon_refs: []
 ---
 ```
 
-## 본문 구조
+## Body Structure
 
-### 한줄 컨셉
-이 게임을 한 문장으로.
+### One-Line Concept
+This game in one sentence.
 
-### 원작과의 관계
-소설의 어떤 요소를 게임화하는가. 무엇을 변환하고 무엇을 버리는가.
+### Relationship to Source Material
+Which elements of the novel are being adapted into the game. What is transformed and what is discarded.
 
-### 플레이어 경험
-플레이어가 이 게임에서 하는 핵심 행위는 무엇인가.
+### Player Experience
+What is the core action the player performs in this game.
 
-### 핵심 감정
-플레이어가 느끼길 원하는 감정.
+### Core Emotion
+The emotion you want the player to feel.
 
-### 장르/형식
-게임 장르, 플랫폼, 인원, 시간 등.
+### Genre/Format
+Game genre, platform, player count, session length, etc.
 
-### 차별점
-기존 유사 게임과 무엇이 다른가.
+### Differentiators
+What sets this apart from existing similar games.
 
-### 검증 질문
-이 컨셉이 작동하는지 확인하기 위한 질문들.
+### Validation Questions
+Questions to verify whether this concept works.
 
-### 메모
-자유 형식.
+### Notes
+Free-form.
