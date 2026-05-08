@@ -24,6 +24,10 @@
 - `meta/` — 프로젝트 설정 (상태 흐름 밖)
   - `context/`, `schema/`, `templates/`, `prompts/`
 
+## 커밋 규칙
+- 커밋 메시지는 **영문**으로 작성 (public 리포)
+- Conventional Commits 형식: `feat:`, `fix:`, `docs:`, `refactor:` 등
+
 ## 파일 규칙
 - 파일명: kebab-case (예: `merchant-lord-early.md`)
 - 모든 파일에 YAML frontmatter 필수
