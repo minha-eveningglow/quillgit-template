@@ -1,0 +1,13 @@
+# 창작물 타입 → AI 에이전트 매핑
+# 각 타입의 창작물을 다룰 때 어떤 에이전트를 사용할지 정의합니다.
+# 값은 .claude/agents/ 디렉토리의 에이전트 슬러그입니다.
+
+character: character-builder
+world: world-builder
+scene_design: scene-designer
+writing: draft-writer
+game: game-adapter
+note: inbox-distiller
+lore: world-builder
+glossary: world-builder
+structure: structure-designer
