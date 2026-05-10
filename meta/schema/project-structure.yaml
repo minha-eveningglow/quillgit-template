@@ -14,7 +14,7 @@ directories:
         - scenes
         - structure
         - writings
-        - lore
+        - subdocs
         - notes
         - game
         - feedback
@@ -30,7 +30,7 @@ directories:
         - scenes
         - structure
         - writings
-        - lore
+        - subdocs
     - path: deprecated
       description: Retired
     - path: media

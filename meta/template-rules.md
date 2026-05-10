@@ -19,7 +19,7 @@ title: Template Usage Rules
 | character-template | Character settings | canon/characters/ or candidates/characters/ |
 | scene-template | Scene card | candidates/scenes/ or canon/scenes/ |
 | background-scene-template | Character background scene | candidates/scenes/background/characters/ |
-| lore-document-template | Supplementary lore document | candidates/lore/ or canon/lore/ |
+| subdoc-template | Supplementary document | candidates/subdocs/ or canon/subdocs/ |
 | game-concept-template | Game concept | candidates/game/concepts/ |
 | core-loop-template | Core loop | candidates/game/concepts/ |
 | reference-research-template | Reference analysis | candidates/game/references/ |

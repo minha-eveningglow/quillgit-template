@@ -1,4 +1,4 @@
-# Lore Document Frontmatter Validation Schema
+# Subdoc (Supplementary Document) Frontmatter Validation Schema
 
 type: object
 required:
@@ -9,16 +9,20 @@ required:
 properties:
   id:
     type: string
-    pattern: "^lore-[a-z0-9-]+$"
+    pattern: "^subdoc-[a-z0-9-]+$"
   type:
     type: string
-    enum: [lore_in_universe, lore_author_reference, lore_wiki, lore_codex]
+    enum: [subdoc]
   status:
     type: string
     enum: [raw, suggested, candidate, edited, canon, deprecated]
   title:
     type: string
-  category:
+  description:
+    type: string
+  parent_type:
+    type: string
+  parent_id:
     type: string
   tags:
     type: array

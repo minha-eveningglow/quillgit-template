@@ -24,7 +24,7 @@ rm -rf .git && git init
 │   ├── relationships/   # Character relationships
 │   ├── glossary/        # Terminology definitions
 │   ├── timeline/        # Chronology entries
-│   ├── lore/            # Lore documents
+│   ├── subdocs/            # Supplementary documents
 │   └── notes/           # Freeform notes
 │
 ├── canon/               # Finalized creative objects

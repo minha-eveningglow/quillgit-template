@@ -13,11 +13,11 @@ Secondary: `question`, `deferred`, `deprecated`, `draft`, `reviewed`
 ## Directory Structure
 - `candidates/` — Work in progress / under review (status: suggested, candidate, edited, draft, reviewed)
   - `characters/`, `world/`, `relationships/`, `glossary/`, `timeline/`
-  - `scenes/`, `structure/`, `writings/`, `lore/`, `notes/`
+  - `scenes/`, `structure/`, `writings/`, `subdocs/`, `notes/`
   - `game/`, `feedback/`, `validation/`
 - `canon/` — Finalized (status: canon only)
   - `characters/`, `world/`, `relationships/`, `glossary/`, `timeline/`
-  - `scenes/`, `structure/`, `writings/`, `lore/`
+  - `scenes/`, `structure/`, `writings/`, `subdocs/`
 - `deprecated/` — Retired (irreversible)
 - `media/` — Media references (outside status flow)
   - `references/`, `generated/`, `external-links/`, `selected/`, `canon-visuals/`, `moodboards/`

@@ -8,6 +8,6 @@ scene_design: scene-designer
 writing: draft-writer
 game: game-adapter
 note: inbox-distiller
-lore: world-builder
+subdoc: world-builder
 glossary: world-builder
 structure: structure-designer

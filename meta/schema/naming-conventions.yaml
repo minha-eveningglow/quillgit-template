@@ -22,7 +22,7 @@ id_prefixes:
   scene: "scene-"
   structure: "struct-"
   writing: "draft-"
-  lore: "lore-"
+  subdoc: "subdoc-"
   game: "game-"
   commentary: "cmnt-"
   feedback: "fb-"
