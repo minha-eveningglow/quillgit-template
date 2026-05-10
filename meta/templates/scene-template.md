@@ -24,6 +24,7 @@ time_in_story: ""
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
+structure_id: ""
 related_characters: []
 related_world_rules: []
 required_canon_refs: []

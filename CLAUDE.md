@@ -59,6 +59,7 @@ Use agents defined in `.claude/agents/` for specialized tasks.
 | world-builder | World-building and proposals |
 | character-builder | Character creation / Character Bible |
 | scene-designer | Scene design / Scene Card |
+| structure-designer | Story structure hierarchy (volume/part/chapter/episode/arc) |
 | draft-writer | Draft writing (Temporal Guard enforced) |
 | game-adapter | Game adaptation design |
 | inbox-distiller | Inbox idea analysis and classification |
